@@ -145,6 +145,84 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2023/09/03/a/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2023/09/03/a/" class="post-title-link" itemprop="url">构建之法</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2023-09-03 10:00:30 / 修改时间：10:10:13" itemprop="dateCreated datePublished" datetime="2023-09-03T10:00:30+08:00">2023-09-03</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>在读完构建之法这本书后，对软件开发的整个流程有了一定的认识。在典型的软件开发流程中，从一个项目的立项到最后项目的发布，其经过了多个步骤，以此来确保项目的顺利进行。在典型开发流程瀑布模型中，为了获取软件需求，需要用常用的获取需求的方法和步骤来。而对于竞争性需求，我们需要NABCD框架来分析和获取，即需求、做法、好处、竞争和推广。对于软件功能的定位和优先级，即杀手功能、外围功能、必要需求和辅助需求，通常采用四象限方法。为了更加深入的理解用户需求，通常需要采用典型用户和场景的方法。在软件开发过程中存在两种类型的说明书：软件功能说明书和软件技术说明书，其中软件功能说明书主要用来说明软件的外部功能和用户交互情况，而软件技术说明书则用来说明软件内部的设计规范。而为了将用户的需求变成可以直接进行的开发工作并源源不断地实现这些需求，需要功能驱动的设计。软件开发的生命周期中，在不同阶段需要使用不同的测试方法，比如在远景和计划阶段进行测试计划和测试设计说明书，同时收集用户对非功能测试的需求，在开发阶段需要单元测试，功能和场景测试，建立回归测试基准，探索式测试，集成测试，同时开展非功能性的测试，在稳定阶段需要进行验收测试。为了让整个软件开发的工作更加高效，需要设置PM职位，以此来协调软件开发工作中除了开发和测试之前的一切事情。而在软件稳定和发布阶段，可以使用软件按时发布的招数：DCR与ZBB，针对出现的不同问题，可以有不同的解决方案，以便于软件的正常发布，RTW最终发布版本。而为了保证软件的质量，需要达到一定的CMMI等级。在阅读过程中，出现了一些困惑，具体如下：</p>
+<p>   1．对于软件中相互独立的几个层次，进行单元测试时层次之间有无测试顺序的问题。</p>
+<ol start="2">
+<li><p>在实际工作中结对编程能否实现？如何分配结对编程两个人的工作量？公司如何衡量结对编程两个人的工作量。</p>
+</li>
+<li><p>根据瀑布模型进行开发过程的后期中，如果相邻两步之间进行回溯时，之前的步骤是否需要做出改变？</p>
+</li>
+<li><p>最终设计文档出现在程序设计、编码和测试阶段？</p>
+</li>
+<li><p>在敏捷开发任务认领的阶段，如果一个任务比较困难，没有团队认领，该如何解决？</p>
+</li>
+<li><p>软件版本的发布和后续bug的修复之间应该如何取舍？</p>
+</li>
+<li><p>在竞争性需求分析中，如果我方的辅助性优势明显弱于竞争产品，那么为了持平这方面的弱势，是参照竞争产品还是？如果参照竞争产品，会不会涉嫌抄袭？</p>
+</li>
+<li><p>PM在与开发团队交流沟通时，需要具备什么样的技能？</p>
+</li>
+<li><p>各种测试方法。单元测试过程中如何保证所测试模块的正确性，怎么提高单元测试的正确率？单元测试用例什么数目最优？在单元测试是否需要考虑极端情况？</p>
+</li>
+</ol>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="http://example.com/2023/09/02/my-first-blog/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -342,7 +420,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">12</span>
+          <span class="site-state-item-count">13</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
